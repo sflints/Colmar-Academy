@@ -1,0 +1,60 @@
+
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+/* Header */
+header {
+  background-color: white;
+  align-items: center;
+  height: 64px;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  color: rgb(131,131,131);
+  top: 0px;
+  right: 0px;
+  left: 0px;
+}
+
+header .logo {
+  flex: 1;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.bold {
+  font-weight: bold;
+  color:rgb(32,32,32)
+}
+
+.desktop li a {
+  padding-left: 16px;
+  color: rgb(135,135,135);
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header .flex-box {
+  padding: 0px 24px;
+  display: flex;
+  align-items: center;
+}
+/* Learn Something Section*/
+section#learn-something {
+  padding-top: 66px;
+  background-color: rgb(211,211,211);
+  color: rgb(32,32,32);
+  padding-bottom: 32px;
+}
