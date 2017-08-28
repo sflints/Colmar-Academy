@@ -60,6 +60,62 @@ a:hover {
 nav.mobile {
   width: 100%;
 }
+/* ============================*/
+
+section#learn-something {
+  padding-top: 66px;
+  background-color: rgb(211,211,211);
+  color: rgb(32,32,32);
+  padding-bottom: 32px;
+}
+
+.padded-box {
+    padding: 32px 24px 32px 16px;
+}
+
+.left-column {
+    padding: 32px 24px 0;
+    flex-basis: 60%;
+}
+
+.left-column img {
+    width: 100%;
+}
+
+.right-column {
+    min-width: 423px;
+    flex-basis: 40%;
+}
+
+h1 {
+    margin: 32px 0;
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+h3 {
+    margin: 24px 0;
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.5rem;
+}
+
+#learn-something button {
+    background-color: rgb(32,32,32);
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-family: "Noto Serif", sans-serif;
+    font-size: 1rem;
+    padding: 8px 0;
+    transition: all 200ms linear 0.1s;
+    width: 80%;
+}
+
+#learn-something button:hover {
+  background-color: #fff;
+  color: rgb(32,32,32);
+}
 
 /* ============================*/
 .desktop {
