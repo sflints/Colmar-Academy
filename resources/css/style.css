@@ -1,5 +1,3 @@
-
-
 html {
   font-size: 18px;
 }
@@ -8,22 +6,32 @@ body {
   font-family: "Noto Sans", sans-serif;
 }
 
+.desktop {
+  display: block;
+}
+
+.flex-box {
+  display: flex;
+}
 /* Header */
+
 header {
   background-color: white;
+  padding: 0 24px;
   align-items: center;
   height: 64px;
-  width: 100%;
   position: fixed;
   z-index: 100;
   color: rgb(131,131,131);
+  justify-content: space-between;
   top: 0px;
   right: 0px;
   left: 0px;
 }
 
-header .logo {
-  flex: 1;
+.bold {
+  font-weight: bold;
+  color:rgb(32,32,32);
 }
 
 .logo {
@@ -31,30 +39,43 @@ header .logo {
   align-items: center;
 }
 
-.bold {
-  font-weight: bold;
-  color:rgb(32,32,32)
+nav a {
+  margin-left: 16px;
 }
 
-.desktop li a {
-  padding-left: 16px;
-  color: rgb(135,135,135);
+a {
+  color: rgb(131,131,131);
+  text-decoration: none;
 }
 
-header nav ul {
-  display: flex;
-  list-style: none;
+a:hover {
+  text-decoration: underline;
 }
 
-header .flex-box {
-  padding: 0px 24px;
-  display: flex;
-  align-items: center;
+.icon-tray {
+    display: flex;
+    justify-content: space-around;
 }
-/* Learn Something Section*/
-section#learn-something {
-  padding-top: 66px;
-  background-color: rgb(211,211,211);
-  color: rgb(32,32,32);
-  padding-bottom: 32px;
+
+nav.mobile {
+  width: 100%;
+}
+
+/* ============================*/
+.desktop {
+  display: block;
+}
+
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 710px) {
+  .desktop {
+      display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
 }
