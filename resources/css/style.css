@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Noto Serif|Noto Serif');
 html {
   font-size: 18px;
 }
@@ -13,6 +14,8 @@ body {
 .flex-box {
   display: flex;
 }
+
+
 /* Header */
 
 header {
@@ -90,7 +93,9 @@ section#learn-something {
 h1 {
     margin: 32px 0;
     font-size: 2rem;
+    font-weight: bold;
     line-height: 2.5rem;
+
 }
 
 h3 {
@@ -101,21 +106,86 @@ h3 {
 }
 
 #learn-something button {
-    background-color: rgb(32,32,32);
-    border-radius: 5px;
-    color: white;
-    border: none;
-    font-family: "Noto Serif", sans-serif;
-    font-size: 1rem;
-    padding: 8px 0;
-    transition: all 200ms linear 0.1s;
-    width: 80%;
+  background-color: rgb(32,32,32);
+  border-radius: 5px;
+  color: white;
+  border: none;
+  font-family: "Noto Serif", sans-serif;
+  font-size: 1rem;
+  padding: 8px 0;
+  transition: all 200ms linear 0.1s;
+  width: 80%;
 }
 
 #learn-something button:hover {
   background-color: #fff;
   color: rgb(32,32,32);
 }
+/* ============================*/
+blockquote {
+  margin: 0;
+  font-family: "Noto-Serif", serif;
+}
+
+cite {
+  margin-top: 1.5rem;
+  display: block;
+}
+
+#keep-practicing {
+  padding-bottom: 32px;
+}
+
+#keep-practicing .right-column {
+  padding-left: 0;
+}
+
+.sides {
+  display: flex;
+  flex-direction: column;
+}
+
+.side {
+  display: flex;
+  padding: 16px;
+}
+
+.side:first-child {
+  margin-top: 16px;
+}
+
+.side:nth-child(3n+3) {
+  background-color: rgb(211,211,211);
+  color: rgb(32,32,32);
+}
+
+.side .image-container {
+  flex-basis: 35%;
+  margin: 0 16px 0 0;
+}
+
+.side-text {
+  flex-basis: 65%;
+  justify-content: center;
+}
+
+.side h1 {
+  margin: 8px 0;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.side a {
+  margin: 16px 0;
+  line-height: 1.5;
+  font-size: 0.8rem;
+  font-weight: lighter;
+}
+
+.image-container img {
+  width: 100%;
+}
+
 
 /* ============================*/
 .desktop {
@@ -134,4 +204,8 @@ h3 {
   .mobile {
     display: block;
   }
+}
+
+.side-feature-text {
+    padding: 16px 16px 0;
 }
