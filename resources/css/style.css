@@ -68,7 +68,7 @@ nav.mobile {
 section#learn-something {
   padding-top: 66px;
   background-color: rgb(211,211,211);
-  color: rgb(32,32,32);
+  color: rgb(64,63,63);
   padding-bottom: 32px;
 }
 
@@ -118,8 +118,8 @@ h3 {
 }
 
 #learn-something button:hover {
-  background-color: #fff;
-  color: rgb(32,32,32);
+  background-color: rgb(229,227,226);
+  color: rgb(64,63,63);
 }
 /* ============================*/
 blockquote {
@@ -156,7 +156,7 @@ cite {
 
 .side:nth-child(3n+3) {
   background-color: rgb(211,211,211);
-  color: rgb(32,32,32);
+  color: rgb(64,63,63);
 }
 
 .side .image-container {
@@ -185,6 +185,51 @@ cite {
 .image-container img {
   width: 100%;
 }
+/* ============================*/
+
+section#start-learning {
+  padding: 32px;
+  background-color: rgb(211,211,211);
+  color: rgb(64,63,63);
+  text-align: center;
+  display: block;
+}
+
+#start-learning .course-list {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+}
+
+.course-box img {
+    width: 100%;
+}
+
+.course-box {
+  background-color: rgb(255,252,251);
+  margin: 16px;
+  width: 33%;
+}
+
+#start-learning h1 {
+  margin: 0 0 16px 0;
+}
+
+#start-learning .course-description {
+  padding: 16px;
+  text-align: left;
+}
+
+#start-learning .course-description h3 {
+  margin: 8px 0;
+  color: rgb(78,63,63);
+}
+
+#start-learning .course-description p {
+    color: rgb(131,131,131);
+}
+/* ============================*/
+
 
 
 /* ============================*/
