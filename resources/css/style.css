@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Noto Serif|Noto Serif');
+
 html {
   font-size: 18px;
 }
@@ -288,7 +288,75 @@ video {
     flex-basis: 100%;
   }
 
+  section#learn-something {
+      flex-direction: column;
+    }
 
+  #learn-something h1 {
+       margin: 16px 0 32px 0;
+     }
+
+  #learn-something .left-column {
+       height: 250px;
+       background-color: rgb(211,211,211);
+       background-size: cover;
+       background-repeat: no-repeat;
+     }
+
+  .side {
+       padding: 0 16px;
+       margin: 16px 0;
+       flex-direction: column;
+     }
+
+  .right-column.sides {
+        padding: 0;
+      }
+
+  .side:nth-child(3n+3) {
+         background-color: rgb(229,227,226);
+    }
+
+  .side-description {
+         padding: 16px 16px 0;
+    }
+
+  section#start-learning {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 32px 16px;
+    }
+
+  #start-learning .course-box {
+       width: 100%;
+       margin: 8px 0;
+    }
+
+  #start-learning .course-box img,
+  #start-learning .course-box h3,
+  #start-learning .course-box p  {
+        display: none;
+    }
+    #start-learning .course-list{
+      flex-direction: column;
+    }
+
+  section#thesis-exhibit {
+      padding-bottom: 24px;
+    }
+
+  }
+
+  @media only screen and (max-width: 720px) {
+  .flex-box ul {
+      display: none;
+  }
+
+  .flex-box ul.icons {
+      display: block;
+    }
+  }
 /* ============================*/
 
 footer {
